@@ -3,7 +3,7 @@
 Projeto construído usando tecnologia Servlets e JSP, com o intuito de testar a performance do Tomcat Server. 
 
 
-#Instruções
+## Instruções
 
 O projeto usa o Spring Boot, que usa Maven. 
 
@@ -19,7 +19,7 @@ Para rodar no Tomcat:
 1. Iniciar (ou redeploy no app) o Tomcat. 
 
 
-#Sobre o projeto
+## Sobre o projeto
 
 REST calls (com retorno JSON): 
 
