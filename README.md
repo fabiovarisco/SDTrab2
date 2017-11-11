@@ -2,6 +2,25 @@
 
 Projeto construído usando tecnologia Servlets e JSP, com o intuito de testar a performance do Tomcat Server. 
 
+
+#Instruções
+
+O projeto usa o Spring Boot, que usa Maven. 
+
+Para importar no Eclipse, usar Import Existing Maven Project. 
+
+Para rodar no Spring Boot direto (que usa um embedded Tomcat Server): 
+* Command Line: mvn sprint-boot::run
+* Eclipse, Project > Run As > Maven Build.. > Goals: spring-boot::run > Run.
+
+Para rodar no Tomcat: 
+1. No eclipse, Project > Run As > Maven Build.. > Goals: clean package > Run.
+1. Copiar o arquivo .war da pasta target para a pasta webapps do Tomcat. 
+1. Iniciar (ou redeploy no app) o Tomcat. 
+
+
+#Sobre o projeto
+
 REST calls (com retorno JSON): 
 
 * greeting (parâmetros opcionais: name. Ex: greeting?name=Fabio)
