@@ -13,7 +13,7 @@ Para rodar no Spring Boot direto (que usa um embedded Tomcat Server):
 * Command Line: mvn sprint-boot::run
 * Eclipse, Project > Run As > Maven Build.. > Goals: spring-boot::run > Run.
 
-**Nota: **O Spring Boot tem certas limitações em relação a JSP e não tá rodando. Então, usar o Tomcat direto se estiverem estando Spring Boot. 
+**Nota: ** O Spring Boot tem certas limitações em relação a JSP e não tá rodando. Então, usar o Tomcat direto se estiverem estando Spring Boot. 
 
 Para rodar no Tomcat: 
 1. No eclipse, Project > Run As > Maven Build.. > Goals: clean package > Run.
